@@ -77,34 +77,34 @@ namespace DateTimePlayTime
 
             //translate to tomorrow
 
-            int tom1 = (int)tomorrow.DayOfWeek;
+            int yest1 = (int)yesterday.DayOfWeek;
 
-            string tomOne = " ";
-            switch (tom1)
+            string yestOne = " ";
+            switch (yest1)
             {
                 case 1:
-                    tomOne = "Tomorrow is Monday";
+                    yestOne = "Yesterday was Monday";
                     break;
                 case 2:
-                    tomOne = "Tomorrow is Tuesday";
+                    yestOne = "Yesterday was Tuesday";
                     break;
                 case 3:
-                    tomOne = "Tomorrow is Wednesday";
+                    yestOne = "Yesterday was Wednesday";
                     break;
                 case 4:
-                    tomOne = "Tomorrow is Thursday";
+                    yestOne = "Yesterday was Thursday";
                     break;
                 case 5:
-                    tomOne = "Tomorrow is Friday";
+                    yestOne = "Yesterday was Friday";
                     break;
                 case 6:
-                    tomOne = "Tomorrow is Saturday";
+                    yestOne = "Yesterday was Saturday";
                     break;
                 case 7:
-                    tomOne = "Tomorrow is Sunday";
+                    yestOne = "Yesterday was Sunday";
                     break;
             }
-            Console.WriteLine(tomOne);
+            Console.WriteLine(yestOne);
 
             //switch(DayOfWeek) Look up this method(?)!
 
