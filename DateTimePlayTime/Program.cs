@@ -135,9 +135,25 @@ namespace DateTimePlayTime
             //Console.WriteLine(days);
 
             //-----------------------------------------------------------------------
-            //Problem 4
+            //Problem 4. Complete!
+            //Write a program to find the leap years between 1994 and 2016
 
+            //int month = 2;
+            //int year;       
+            
+            //for (year = 1994; year < 2017; year++)
+            //{
+            //    int days = DateTime.DaysInMonth(year, month);
+            //    if (days > 28)
+            //    {
+            //        Console.WriteLine("February has, this year, has " + days + " days. So " + year + " is a leap year!");
 
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("February has, this year, has " + days + " days. So " + year + " is NOT a leap year!");
+            //    }
+            //}
             //Methods Section below------------------------------------------------
         }
         static DateTime GetYesterday()
