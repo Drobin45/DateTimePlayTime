@@ -118,13 +118,26 @@ namespace DateTimePlayTime
             //My birthday is May 12th, so it will be the 132nd day of the year
             //To print "My birthday is the 132 day of the year."            
 
-            DateTime myBirthday = new DateTime(2017, 5, 12);
-            DateTime newYear = new DateTime(2017, 1, 1);
-            TimeSpan numberOfDays = myBirthday.Subtract(newYear);
-            double daysPast = numberOfDays.TotalDays;     
+            //DateTime myBirthday = new DateTime(2017, 5, 12);
+            //DateTime newYear = new DateTime(2017, 1, 1);
+            //TimeSpan numberOfDays = myBirthday.Subtract(newYear);
+            //double daysPast = numberOfDays.TotalDays;     
 
-            Console.WriteLine("My birthday is the " + daysPast + " day of the year.");        
-                
+            //Console.WriteLine("My birthday is the " + daysPast + " day of the year.");        
+
+            //-----------------------------------------------------------------------
+
+            //Problem 3. Complete!
+            //Create app that shows the ammount of days in a month
+            //int month = 9;
+            //int year = 2017;
+            //int days = DateTime.DaysInMonth(year, month);
+            //Console.WriteLine(days);
+
+            //-----------------------------------------------------------------------
+            //Problem 4
+
+
             //Methods Section below------------------------------------------------
         }
         static DateTime GetYesterday()
